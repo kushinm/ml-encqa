@@ -17,5 +17,5 @@ def test_load_local_dataset():
     encqa_wrapper = enc_qa_dataset.load_enc_qa(data_dir="data/")
     print("Loaded data from local dir")
     encqa_data: list[dict] = encqa_wrapper.data()
-    print(encqa_data[0])
+    print(encqa_data)
     assert len(encqa_data) == 2525

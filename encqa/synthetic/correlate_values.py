@@ -4,10 +4,10 @@
 import numpy as np
 import json
 import os
-from synthetic.generate_synthetic_chart import (
+from encqa.synthetic.generate_synthetic_chart import (
     create_synthetic_data_chart,
 )
-from synthetic.generate_synthetic_dataset import (
+from encqa.synthetic.generate_synthetic_dataset import (
     generate_correlated_data,
 )
 

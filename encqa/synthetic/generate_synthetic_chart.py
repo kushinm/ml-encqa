@@ -9,7 +9,7 @@ import os
 # from synthetic.generate_synthetic_dataset import generate_constrained_data
 import numpy as np
 from collections import Counter, defaultdict
-from synthetic import utils
+from encqa.synthetic import utils
 
 # each task has its own counter for color scheme
 color_scheme_counters: defaultdict = defaultdict(Counter)

@@ -6,7 +6,7 @@ import os
 import numpy as np
 from absl import app, flags  # type: ignore
 
-from synthetic import (
+from encqa.synthetic import (
     find_extrema,
     retrieve_value,
     filter_values,
